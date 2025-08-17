@@ -42,7 +42,7 @@ app.use(limiter);
 // MongoDB Connection
 
 require('dotenv').config();
-const mongo_url = process.env.DB_URL;
+const mongo_url = process.env.mongo_url;
 // console.log('Mongo URI:', process.env.mongo_url);
 
 let OPTION = {user:"", pass:"", autoIndex: true}
