@@ -11,5 +11,5 @@ const DataSchema=mongoose.Schema({
     },
     {timestamps:true,versionKey:false}
 )
-const invoiceProductModel=mongoose.model('invoiceproducts',DataSchema)
+const invoiceProductModel=mongoose.model('invoiceProducts',DataSchema)
 module.exports=invoiceProductModel

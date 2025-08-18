@@ -12,5 +12,5 @@ const DataSchema=mongoose.Schema({
     },
     {timestamps:true,versionKey:false}
 )
-const paymentSettingsModel=mongoose.model('paymentsettings',DataSchema)
+const paymentSettingsModel=mongoose.model('paymentSettings',DataSchema)
 module.exports=paymentSettingsModel
