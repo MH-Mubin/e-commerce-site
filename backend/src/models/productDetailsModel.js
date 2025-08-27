@@ -13,7 +13,7 @@ const dataSchema = mongoose.Schema({
     des:{type: String, required: true},
     color:{type: String, required: true},
     size:{type: String, required: true},
-    productID:{type: mongoose.Schema.Types.ObjectId, required: true},
+    ProductID:{type: mongoose.Schema.Types.ObjectId, required: true},
     
 }, {timestamps: true, versionKey: false}
 )

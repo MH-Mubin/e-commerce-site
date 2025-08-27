@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 const DataSchema=mongoose.Schema({
-        userID:{type:mongoose.Schema.Types.ObjectId,required:true},
+        UserID:{type:mongoose.Schema.Types.ObjectId,required:true},
         cust_add:{type:String},
         cust_city:{type:String},
         cust_country:{type:String},

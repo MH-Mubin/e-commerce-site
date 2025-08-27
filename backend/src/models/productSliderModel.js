@@ -7,7 +7,7 @@ const dataSchema = mongoose.Schema({
     price:{type: String, required: true},
     img:{type: String, required: true},
     
-    productID:{type: mongoose.Schema.Types.ObjectId, required: true},
+    ProductID:{type: mongoose.Schema.Types.ObjectId, required: true},
     
 }, {timestamps: true, versionKey: false}
 )

@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 const DataSchema=mongoose.Schema({
-        userID:{type:mongoose.Schema.Types.ObjectId,required:true},
+        UserID:{type:mongoose.Schema.Types.ObjectId,required:true},
         payable: {type:String, required:true},
         cust_details: {type:String, required:true},
         ship_details: {type:String, required:true},
