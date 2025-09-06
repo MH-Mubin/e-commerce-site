@@ -7,18 +7,26 @@ const ReviewModel = require('../models/ReviewModel');
 
 
 
-const BrandListService=async()=>{
+const BrandListService=async()=>{}
+const CategoryListService=async()=>{}
+const SliderListService=async()=>{}
+const ListByBrandService=async()=>{}
+const ListByCategoryService=async()=>{}
+const ListByRemarkService=async()=>{}
+const ListBySimilarService=async()=>{}
+const ListByKeywordService=async()=>{}
+const DetailsService=async()=>{}
+const ReviewListService=async()=>{}
 
-}
-
-const CategoryListService=async()=>{
-
-}
-
-const SliderListService=async()=>{
-
-}
-
-const ListByBrandService=async()=>{
-
+module.exports={
+    BrandListService,
+    CategoryListService,
+    SliderListService,
+    ListByBrandService,
+    ListByCategoryService,
+    ListByRemarkService,
+    ListBySimilarService,
+    ListByKeywordService,
+    DetailsService,
+    ReviewListService
 }

@@ -1,3 +1,15 @@
+const {BrandListService,
+    CategoryListService,
+    SliderListService,
+    ListByBrandService,
+    ListByCategoryService,
+    ListByRemarkService,
+    ListBySimilarService,
+    ListByKeywordService,
+    DetailsService,
+    ReviewListService}=require('../services/ProductService');
+
+
 exports.ProductBrandList = async(req,res)=>{
 
 }
@@ -38,3 +50,6 @@ exports.ProductReviewList = async(req,res)=>{
     
 }
 
+exports.CreateProductReview = async(req,res)=>{
+    
+}

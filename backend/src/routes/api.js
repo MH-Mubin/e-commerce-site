@@ -19,7 +19,6 @@ router.get('/ProductDetails/:ProductId', ProductController.ProductDetails);
 router.get('/ProductReviewList/:ProductId', ProductController.ProductReviewList);
 
 
-
 //Brand Category
 
 
