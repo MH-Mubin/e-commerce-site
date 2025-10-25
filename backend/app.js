@@ -55,6 +55,6 @@ mongoose.connect(mongo_url, OPTION).then(() => {
 
 
 // Routing implementation
-//app.use('/api/v1', router);
+app.use('/api/v1', router);
 
 module.exports = app;
